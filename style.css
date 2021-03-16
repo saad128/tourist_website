@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+.first{
+    height: 100%;
+    background-image:url("https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/Thrisshur-est-places-kerala-refurnb73673.jpg");
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.section1{
+    background-color: #565f64;
+    opacity: 0.6;
+    height: 760px;
+    width: 40%;
+
+}
+.section2 {
+
+    height: 760px;
+    width: 60%;
+}
+.sub_section1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    vertical-align: middle;
+    justify-items: center;
+    justify-content: start;
+}
+.main_heading{
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.avatar{
+    vertical-align: middle;
+    horiz-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section1_col{
+    display: block;
+    margin: 2px 20px;
+}
+.underline{
+    width: 250px;
+}
+.sub_section2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+.btn{
+    background-color: #a5dbcb;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 40px;
+}
+.btn2{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.second{
+    height: 100vh;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.section4{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 0;
+    margin: 50px 0;
+}
+.carousal1{
+    height: 300px;
+    width: 455px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+.carousal2{
+    height: 400px;
+    width: 600px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 10px;
+}
+.carousal3{
+    height: 300px;
+    width: 455px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
